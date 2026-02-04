@@ -4,8 +4,8 @@ st.set_page_config(page_title="Kalkulator", layout="centered")
 
 st.title("Kalkulator Sederhana")
 
-angka1 = st.number_input("Masukkan angka pertama", value=0.0)
-angka2 = st.number_input("Masukkan angka kedua", value=0.0)
+angka1 = st.number_input("Masukkan angka pertama", value=0, step=1, format="%d")
+angka2 = st.number_input("Masukkan angka kedua", value=0, step=1, format="%d")
 
 operasi = st.selectbox("Pilih operasi", ["Penjumlahan", "Pengurangan", "Perkalian", "Pembagian"])
 
