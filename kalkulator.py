@@ -2,7 +2,8 @@ import streamlit as st
 
 st.set_page_config(page_title="Kalkulator", layout="centered")
 
-st.title("Kalkulator Sederhana")
+st.title("Kalkulator Kelompok 3 TI25C")
+st.description("SAYYID SAKHIY SULAEMAN - 250511048 \naqil")
 
 angka1 = st.number_input("Masukkan angka pertama", value=0.0)
 angka2 = st.number_input("Masukkan angka kedua", value=0.0)
