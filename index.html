@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div id="display" class="display">0</div>
+        
+        <div class="buttons">
+            <button onclick="clearAll()" class="btn-func span-2">AC</button>
+            <button onclick="percent()" class="btn-func">%</button>
+            <button onclick="addChar('/')" class="btn-op">÷</button>
+            
+            <button onclick="addChar('7')" class="btn-num">7</button>
+            <button onclick="addChar('8')" class="btn-num">8</button>
+            <button onclick="addChar('9')" class="btn-num">9</button>
+            <button onclick="addChar('*')" class="btn-op">×</button>
+            
+            <button onclick="addChar('4')" class="btn-num">4</button>
+            <button onclick="addChar('5')" class="btn-num">5</button>
+            <button onclick="addChar('6')" class="btn-num">6</button>
+            <button onclick="addChar('-')" class="btn-op">−</button>
+            
+            <button onclick="addChar('1')" class="btn-num">1</button>
+            <button onclick="addChar('2')" class="btn-num">2</button>
+            <button onclick="addChar('3')" class="btn-num">3</button>
+            <button onclick="addChar('+')" class="btn-op">+</button>
+            
+            <button onclick="addChar('0')" class="btn-num span-2">0</button>
+            <button onclick="addChar('.')" class="btn-num">.</button>
+            <button onclick="calculate()" class="btn-op">=</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
