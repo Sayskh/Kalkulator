@@ -4,10 +4,12 @@ Tugas Besar - Dasar Algoritma dan Pemrograman
 
 ### 1. Python (Streamlit)
 
+https://kalkulator-kvz5ramytljappmfurr5p4t.streamlit.app/
 Kalkulator Python + Streamlit
 
 ### 2. JavaScript (Web)
 
+https://sayskh.github.io/Kalkulator/
 Kalkulator web pakai HTML, CSS, JavaScript
 
 ## Kelompok
